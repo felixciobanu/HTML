@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>DAT310 Assignment 4</title>
+    <script src="script.js"></script>
+   <!-- <script src="tableprint.js"></script> -->
+    <style>
+        .searchname{
+
+        }
+        .searchtlf{
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <form>
+        <input type="text" id="search" size="20" onkeyup="searchcontact()" placeholder="Search">
+        <select name="selectsearch" id="selectsearch">
+            <option value="name">Name</option>
+            <option value="telephone">Phone number</option>
+            <option value="email">Email</option>
+        </select>
+        <div id="header_button">
+            <button id="add_entry_button" type="button" onclick="showentry()"><i class="material-icons" style="color: black;">person_add</i></button>
+            <button id="settings_button" type="button" onclick="showsettings()"><i class="material-icons" style="color: black;">settings</i></button>
+        </div>
+    </form>
+
+    </header>
+
+
+    <form id="add_entry" name="add_entry" class="entry" style="display: none;">
+        <h1>Add entry<button id="close_entry" type="button" onclick="closeentry()"><i class="material-icons" style="color: black;">close</i></button></h1>
+        <label for="addname">Name: </label>
+        <input type="text" id="addname" name="addname">
+        <div id="name_check" class="err" style="display: contents;"></div>
+        <br>
+        <label for="addtel">Tel: </label>
+        <input type="tel" id="addtel" name="addtel" pattern="[0-9-+)( ]" title="Can only contain numbers, and the characters(+-()) and space.">
+        <br>
+        <label for="addemail">Email: </label>
+        <input type="email" id="addemail" name="addemail">
+        <br>
+        <input type="button" id="addbutton" name="addbutton" value="Add" onclick="Entry.newcontact();">
+
+        
+    </form>
+
+    <form id="settings" name="settings" class="entry" style="display: none;">
+        <h1>Settings<button id="close_entry" type="button" onclick="closesettings()"><i class="material-icons" style="color: black;">close</i></button></h1>
+
+        <label for="font">Font: </label>
+        <select name="font" id="font">
+            <option value="None" selected>None</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier New">Courier New</option>
+        </select>
+
+        <br>
+        <label for="size">Size: </label>
+        <select name="size" id="size">
+            <option value="8pt">Small</option>
+            <option value="12pt" selected>Normal</option>
+            <option value="16pt">Large</option>
+        </select>
+        <br>
+
+        <label for="color">Color: </label>
+        <select name="color" id="color">
+            <option value="White" selected>White</option>
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Pink">Pink</option>
+            <option value="Yellow">Yellow</option>
+        </select>
+        <br>
+        <input type="button" id="settings" name="settings" value="Change" onclick="setting()">
+
+        
+    </form>
+
+    <div id="show"></div>
+
+    <form id="entrys" onsubmit="return AddEntry()">
+        <button onclick="AddEntry()">Submit</button>
+        <script>
+            
+           // var Entry = new AddEntry();
+            //Entry.printTable();
+            
+        </script>
+    </form>
+
+    <script>
+        printme();
+    </script>
+
+
+</body>
+</html>
