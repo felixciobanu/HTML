@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 6: Gradebook</title>
+    <link rel="stylesheet" href="../static/style.css"/>
+</head>
+<body>
+<h1>Grades for {{ data[0].courseN }}</h1>
+
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student Number</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+            {% for note in data %}
+            <tr>
+                <td>{{ note.student_no }} </td>
+                <td> {{ note.grade }}</td>
+            </tr>
+            {% endfor %}
+
+            </tbody>
+            </table>
+
+            <h3>Summary</h3><table>
+                <thead>
+                <tr><th>Grade</th><th>Count</th></tr>
+                </thead>
+
+                <tbody>
+                {% for note in data %}
+                <tr><td> {{note.grade}}</td><td>{{dataC.count(note.grade)}}</td></tr>
+                {% endfor %}
+                </tbody>
+                </table>
+
+
+    <form action="/add_grade_error" method="get">
+        <input type="text" name="course" value="{{ givenCourse }}" hidden>
+        <input type="submit" value="add grade">
+    </form>
+</body>
+</html>

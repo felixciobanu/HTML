@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/acec49f3d4.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@1,300&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/logo.png" alt="" id="logoimg">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                <li><a href="product.html"><i class="material-icons">computer</i></a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="column">
+        <div class="framed">
+            <h1>Cart</h1>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Size</th>
+                    <th>count</th>
+                    <th>price</th>
+                    <th>discount</th>
+                    <th>calculated price</th>
+                    <th>cancel</th>
+                </tr>
+                <tr>
+                    <td>Orange_1</td>
+                    <td>1</td>
+                    <td>large</td>
+                    <td>200</td>
+                    <td>0</td>
+                    <td>200</td>
+                    <td><button class="cancel">Cancel</button></td>
+                </tr>
+                <tr>
+                    <td>Orange_2</td>
+                    <td>5</td>
+                    <td>Venti</td>
+                    <td>200</td>
+                    <td>0</td>
+                    <td>200</td>
+                    <td><button class="cancel">Cancel</button></td>
+                </tr>
+                <tr>
+                    <td>Orange_3</td>
+                    <td>10</td>
+                    <td>Grande</td>
+                    <td>200</td>
+                    <td>0</td>
+                    <td>200</td>
+                    <td><button class="cancel">Cancel</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="framed">
+            <h1>Checkout</h1>
+            <br>
+
+            <fieldset>
+                <legend>Billing details</legend>
+                <label for="firstname">firstname</label>
+                <input id="firstname" type="text">
+
+                <br>
+                <label for="lastname">lastname</label>
+                <input id="lastname" type="text">
+
+                <br>
+                <label for="email">email</label>
+                <input id="email" type="text">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Delivery address</legend>
+
+                <label for="street">street</label>
+                <input id="street" type="text">
+
+                <br>
+                <label for="city">city</label>
+                <input id="city" type="text">
+
+                <br>
+                <label for="postcode">postcode</label>
+                <input id="postcode" type="text">
+            </fieldset>
+            <fieldset>
+                <legend>Submit order</legend>
+
+                <label for="agree">agreeing to terms of service</label>
+                <input id="agree" type="radio">
+                <button id="submit" type="submit">Submit</button>
+            </fieldset>
+        </div>
+    </main>
+    <footer>
+        <p>Customer Service: +47 12345678 | email@noreply.com </p>
+    </footer>
+</body>
+</html>

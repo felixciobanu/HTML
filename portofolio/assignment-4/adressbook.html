@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            padding-left: 40px;
+        }
+        nav{
+            background-color: aliceblue;
+        }
+        #addEntry{
+            margin: 10px 0 10px 0;
+            display: flex;
+            flex-direction: column;
+            border: #333333 1px solid;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 30px 20px 30px;
+        }
+
+        #show{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .divElType1{
+            margin: 15px;
+            padding: 20px;
+            background-color: aliceblue;
+            border: 2px solid black;
+        }
+        .buttonType1{
+            background-color: darkcyan;
+            padding: 10px;
+            border-style: none;
+            height: 50px;
+        }
+        #searchFor{
+            margin-left: 50px;
+            border: 2px solid black;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!---
+
+    Allow the list to be sorted based on name, telephone, or email. The sorting criteria can be chosen from a select list.
+
+    -->
+    <nav>
+        <label for="searchFor"></label>
+        <input id="searchFor" type="text" placeholder="search" >
+
+        <button id="searchButton" class="buttonType1">Search</button>
+    </nav>
+
+    <div id="addEntry">
+        <h1>Add Entry</h1>
+        <br>
+        <label for="names">Name: </label>
+        <br>
+        <input type="text" id="names">
+        <br>
+        <label for="phonenumber">Telefonnummer: </label>
+        <br>
+        <input type="number" id="phonenumber">
+        <br>
+        <label for="email">Email: </label>
+        <br>
+        <input type="text" id="email">
+        <br>
+        <button type="submit" id="submit">Add</button>
+        <br>
+
+    </div>
+
+    <div id="show">
+
+    </div>
+
+
+    <script>
+        let showId = document.getElementById("show");
+        let submitButton = document.getElementById("submit");
+        let seEtter = document.getElementById("searchFor");
+        let searchButtonEl = document.getElementById("searchButton");
+
+        let dic = [
+            {nameDic: "Lars", phoneDic: 52004030, emailDic: "Lars@email.com"},
+            {nameDic: "Petter", phoneDic: 90706000, emailDic: "Petter@email.com"},
+            {nameDic: "Sofie", phoneDic: 99990000, emailDic: "Sofie@email.com"}
+        ];
+
+
+        function deleteMe(obj){
+
+            let sure = prompt("Are you sure you want to delete? yes/no")
+            if (sure.toLowerCase() === "ja" || sure.toLowerCase() === "yes"){
+                dic.splice(obj, 1);
+                start();
+            }
+            else{
+
+            }
+        }
+
+        function editMe (ob){
+            let n, t, e;
+
+            n = prompt("How to you want to change this name?");
+            t = parseInt(prompt("How to you want to change this phonenumber?"));
+            e = prompt("How to you want to change this email?");
+
+            if (n !== "" && t !== "NaN"){
+                let unvalid;
+                for (let j = 0; j < e.length-1; j++) {
+
+                    if (e[j] === "@") {
+                        unvalid = false;
+                        break;
+                    }
+                }
+                if (unvalid === false){
+                    dic[ob].nameDic = n;
+                    dic[ob].phoneDic = t;
+                    dic[ob].emailDic = e;
+                }
+            }
+
+
+            start();
+        }
+
+        function start(){
+            showId.innerHTML = "";
+
+            for (let i = 0; i < dic.length; i++){
+
+                let divEl = document.createElement("div");
+                divEl.classList = "divElType1";
+
+                let names = document.createElement("h2");
+                names.innerText = "Name: " + dic[i].nameDic;
+                divEl.appendChild(names);
+
+
+                let phone = document.createElement("p");
+                phone.innerText = "Telefonnummer: " + dic[i].phoneDic;
+                divEl.appendChild(phone);
+
+
+                let email = document.createElement("p");
+                let text =  dic[i].emailDic;
+                email.innerHTML = "Email: ";
+                email.innerHTML+= text.link("mailto:dic[i].emailDic");
+                divEl.appendChild(email);
+
+                divEl.innerHTML += '<button onclick="deleteMe('+ i +')" class="buttonType1"> Delete</button>';
+                divEl.innerHTML += '<button onclick="editMe('+ i +')" class="buttonType1"> Edit </button>';
+
+                console.log(divEl);
+                showId.appendChild(divEl);
+            }
+
+
+        }
+        start();
+
+        function leggInn (){
+
+            let n = document.getElementById("names").value;
+            let t = document.getElementById("phonenumber").value;
+            let e = document.getElementById("email").value;
+
+            let person;
+
+            console.log(n, t, e);
+
+            if (n !== ""){
+                if (t !== "" || e !== ""){
+                    let unvalid;
+                    for (let j = 0; j < e.length-1; j++){
+                        if (e[j] === "@"){
+                            unvalid = false;
+                            break;
+                        }
+                        else if (j === e.length){
+                            alert("Invalid email.");
+                        }
+                        else{
+                            console.log(e[j]);
+                        }
+
+                    }
+                    if (unvalid === false){
+                        person = {nameDic: n, phoneDic: t, emailDic: e};
+                        dic.push(person);
+                        console.log(person);
+                    }
+                } else{
+                    alert("invalid");
+                }
+            }else{
+                alert("Name cant be blank");
+            }
+            document.getElementById("names").value = "";
+            document.getElementById("phonenumber").value = "";
+            document.getElementById("email").value = "";
+            start();
+        }
+
+
+
+        function find(sok){
+            sok = document.getElementById("searchFor").value;
+            let search = sok.toLowerCase();
+            let nyBase = [];
+            document.getElementById("searchFor").value = "";
+
+
+            function nyBaseRestart (){
+                showId.innerHTML = "";
+
+                for (let i = 0; i <= nyBase.length-1; i++){
+
+                    let divEl = document.createElement("div");
+                    divEl.classList = "divElType1";
+
+                    let names = document.createElement("h2");
+                    names.innerText = "Name: " + nyBase[i].nameDic;
+                    divEl.appendChild(names);
+
+
+                    let phone = document.createElement("p");
+                    phone.innerText = "Telefonnummer: " + nyBase[i].phoneDic;
+                    divEl.appendChild(phone);
+
+
+                    let email = document.createElement("p");
+                    let text =  nyBase[i].emailDic;
+                    email.innerHTML = "Email: ";
+                    email.innerHTML+= text.link("mailto:dic[i].emailDic");
+                    divEl.appendChild(email);
+
+                    divEl.innerHTML += '<button onclick="deleteMe('+ i +')" class="buttonType1"> Delete</button>';
+
+                    console.log(divEl);
+                    showId.appendChild(divEl);
+                }
+
+                console.log("show me the button");
+                showId.innerHTML += '<button onclick="start()" class="buttonType1">Back to the full adressBook</button>';
+            }
+
+            function checkMe (e){
+                for (let j = 0; j <= dic.length-1; j++){
+
+                    let dicName = dic[j].nameDic;
+                    let dicPhone= dic[j].phoneDic;
+                    let dicEmail= dic[j].emailDic;
+
+                    if (e.toLowerCase() === dicName.toLowerCase()){
+                        nyBase.push(dic[j]);
+                    }else if (e.toLowerCase() === dicEmail.toLowerCase()){
+                        nyBase.push(dic[j]);
+                    }else if (e === dicPhone.toString()){
+                        nyBase.push(dic[j]);
+                    }
+                }
+                console.log(nyBase);
+                nyBaseRestart();
+            }
+            checkMe(search);
+        }
+
+
+        searchButtonEl.addEventListener("click", find);
+        seEtter.addEventListener("change", find);
+        submitButton.addEventListener("click", leggInn);
+    </script>
+</body>
+</html>

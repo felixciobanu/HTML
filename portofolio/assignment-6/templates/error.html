@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 6: Gradebook</title>
+    <link rel="stylesheet" href="../sample/style.css"/>
+</head>
+<body>
+    <div id="container">
+        
+    <h1>Register new student</h1>
+    <p class="error">{{ msg }}</p>
+    <form action="{{ url_for('addStudentToDb') }}" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label></label>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="/">back to homepage</a>
+    </div>
+</body>
+</html>

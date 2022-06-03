@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment 6: Gradebook</title>
+    <link rel="stylesheet" href="../static/style.css"/>
+</head>
+<body>
+    <div id="container">
+        <h1>Register new grades</h1>
+        <p class="success">Added grade {{ grade }} for {{ studnum }} in course {{ courseid }}</p>
+        <form action="" method="POST">
+        <label for="course">Course</label>
+        <select name="course" id="course">
+
+        <p class="error">{{ msg }}</p>
+                <option value="" selected>Select</option>
+            {% for course in courses %}
+                <option value="{{ course.course_id }}">{{ course.course_id }} {{ course.name }}</option>
+            {% endfor %}
+        </select>
+        <br>
+
+        <label for="stud">Student</label>
+        <select name="stud" id="stud">
+
+                <option value="" selected>Select</option>
+            {% for student in students %}
+                <option value="{{ student.student_no }}">nr:{{ student.student_no }} {{ student.name }}</option>
+            {% endfor %}
+
+        </select>
+        <br>
+
+        <label for="grade">Grade</label>
+        <select name="grade" id="grade">
+            <option value="" selected>Select</option>
+                <option value="A">A</option>
+
+                <option value="B">B</option>
+
+                <option value="C">C</option>
+
+                <option value="D">D</option>
+
+                <option value="E">E</option>
+
+                <option value="F">F</option>
+
+        </select><br>
+        <label></label>
+        <input type="submit" value="Submit">
+            <input type="hidden" name="type" value="student">
+    </form>
+    <a href="{{url_for('index')}}">main</a>
+    </div>
+</body>
+</html>

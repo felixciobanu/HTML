@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/acec49f3d4.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@1,300&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/logo.png" alt="" id="logoimg">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                <li><a href="product.html"><i class="material-icons">computer</i></a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="productContent">
+            <div class="framed column">
+                <img src="images/orange_1.jpg" alt="" id = "productImg">
+                <h3>Fabulous Orange 1</h3>
+                <p>Shortly... Fabulous</p>
+
+                <br>
+
+                <label for="count">Number: </label>
+                <input id="count" name="count" type="number" placeholder="Count:">
+
+                <br>
+
+                <label for="size">Size: </label>
+                <select id="size">
+                    <option>Large</option>
+                    <option>Grande</option>
+                    <option>Venti</option>
+                </select>
+
+                <br>
+
+                <label for="value">Price: </label>
+                <input id="value" value="200,-" readonly>
+
+                <br>
+
+                <button>Add to Cart</button>
+            </div>
+            <div class="framed">
+                <h1>Details</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi aperiam asperiores aspernatur
+                    assumenda corporis debitis delectus, dicta ea earum enim esse est eveniet exercitationem facere fuga
+                    harum illum impedit inventore laboriosam maiores nobis numquam placeat quas quia quibusdam rerum
+                    sapiente sunt vel, voluptatem! Aut ea error fuga, magnam maiores minus molestias nemo placeat
+                    possimus quia quisquam quo ratione sunt tempora totam veritatis voluptas. Atque cupiditate
+                    distinctio error esse ex explicabo facere, fugiat harum illum inventore libero nisi officiis
+                    possimus quidem, reprehenderit temporibus, vero. Aliquid amet atque blanditiis commodi culpa eos hic
+                    illo magni natus omnis perspiciatis quasi saepe sapiente soluta, tenetur voluptates voluptatibus. Ad
+                    deleniti earum laudantium magnam magni, molestias porro qui quos rerum sequi! Adipisci alias aliquid
+                    debitis eveniet ex impedit libero quod. Assumenda, cumque cupiditate debitis delectus distinctio
+                    dolore doloremque fugit hic impedit laudantium natus, nesciunt, nobis officiis praesentium quidem
+                    sequi soluta suscipit veritatis. Architecto consequatur dicta eveniet fugit numquam omnis similique!
+                    Delectus eius officiis sit. Ad autem consequatur cupiditate debitis delectus deserunt dolorem
+                    dolores eius enim error et expedita explicabo iste labore non omnis quaerat rerum sequi veniam,
+                    voluptatibus! Assumenda autem dignissimos ducimus eligendi expedita explicabo fugit, in iste maxime
+                    officiis optio placeat quam similique soluta?</p>
+            </div>
+        </div>
+        <aside id="shopCart">
+            <a href="cart.html"><h2>Cart</h2></a>
+            <table>
+                <tr>
+                    <td>Orange_1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Orange_2</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Orange_3</td>
+                    <td>10</td>
+                </tr>
+            </table>
+        </aside>
+    </main>
+    <footer>
+        <p>Customer Service: +47 12345678 | email@noreply.com </p>
+    </footer>
+</body>
+</html>
