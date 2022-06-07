@@ -1,0 +1,397 @@
+/* Meny */
+
+header{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #635EB6;
+} /* Logoen ble laget med https://www.wix.com/logo/maker/esh/zoe-editor?companyName=FinBil&tagLine=Easy%2C%20Simple%2C%20Clever.&industry=%7B"industry"%3A"d557f60d88b5faf6bc596ab9_a12fd69889a62f597bef8715_car%20dealer"%2C"isCustom"%3Afalse%7D&tags=dynamic%2Cmodern%2Ctechy%2Cformal&ll=%5B"car%20rim"%2C"car%20steering%20wheel"%2C"car%20wheel"%5D&logoId=830ae027-2dd9-44a1-ba10-60de13aa7d5f&logoPurpose=website*/
+header image{ /* stor tittel */
+    background-color: #635EB6;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-basis: 100%;
+    background-color: white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    width: 100%;
+    height: 75px;
+    border-bottom: black 1px solid;
+
+}
+nav ul li{
+    margin: 0;
+    display: flex;
+    flex-basis: 30%;
+
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 100%;
+    color: black;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+}
+nav ul li a:hover{
+    border-bottom: grey solid 4px;
+}
+/* hovedel */
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #323232;
+}
+#big{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+}
+#small {
+    display: flex;
+    width: 100%;
+    background-color: #FFD22B;
+    justify-content:space-around;
+}
+#biler{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    padding: 20px;
+}
+#wrapper3{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 650px;
+}
+#biler img{
+    width: 400px;
+}
+#biler h4{
+    width: 400px;
+    text-align: center;
+}
+#biler p{
+    text-align: center;
+    font-size: 20px;
+}
+#left{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#pVisBil{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap:20px;
+}
+#right{
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 20px;
+}
+#bx1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+}
+#filtr{
+    display: flex;
+    flex-basis: 500px;
+    background-color: white;
+}
+.span1{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 5px;
+}
+#bx2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.upds{
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    overflow: auto;
+}
+.upds h2{
+    text-align: center;
+}
+.upds p{
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+#lInd{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+#lInd p{
+    text-align: center;
+}
+.eqh{/* EQual Height*/
+    display: flex;
+    flex-grow: 1;
+    margin: 20px;
+}
+/* sok.php */
+.resultater{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bx2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bx3{
+    background-color: white;
+    border: solid black 1px;
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 600px;
+    flex-wrap: wrap;
+    width: 650px;
+}
+.bx3 img{
+   width: 600px;
+}
+.bx4{
+    display: flex;
+    flex-direction: column;
+}
+.soker{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    margin: 30px;
+}
+.soker form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.soker form select{
+    width: 200px;
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background:#888;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* Login System*/
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container h2{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+/* visEnBil */
+#visbilbox{
+    margin-left: 15px;
+    padding: 10px;
+    color: white;
+    width: 500px;
+}
+#wrapper2 {
+     display: flex;
+     flex-direction: row;
+     flex-grow: 1;
+     height: 800px;
+ }
+.ltn-bx{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+}
+.ltn-bx p{
+    color: black;
+}
+.ltn-bx h2{
+    color: black;
+}
+#bilderBil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    margin-left: 15px;
+    height: 100%;
+}
+#bilderBil img{
+    width: 100%;
+}
+/* Legg til Lokale */
+#main1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main1 h1{
+    color: #FFD22B;
+}
+#main1 table{
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+}
+th{
+    padding: 10px;
+}
+tr{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+#main1 form{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#main1 p{
+    color: #FFD22B;
+}
+#main1 p a{
+    color:#FFD22B;
+}
+#main1 input{
+    padding: 10px;
+}
+#main1 form button{
+    margin: 10px;
+}
+#main1 select{
+    width: 100px;
+    padding: 10px;
+}
+/* Slider i index*/
+.slidershow{
+    overflow: hidden;
+    position: absolute;
+    width: 600px;
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bar:hover{
+    background: #fff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
+#r4:checked ~ .s1{
+    margin-left: -60%;
+}
+#r5:checked ~ .s1{
+    margin-left: -80%;
+}

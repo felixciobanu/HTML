@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f096082-8ab2-4338-8beb-b689a680ba34" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="phpMal" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yj3nPVnZi8xO6wq62yEfqyl34H" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\carDealer\includes" />
+      <recent name="C:\wamp64\www\carDealer" />
+      <recent name="C:\wamp64\www\carDealer\slideshow only css\bilder" />
+      <recent name="C:\wamp64\www\carDealer\slideshow only css" />
+      <recent name="C:\wamp64\www\carDealer\login" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f096082-8ab2-4338-8beb-b689a680ba34" name="Default Changelist" comment="" />
+      <created>1583442342707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583442342707</updated>
+      <workItem from="1583442344044" duration="6946000" />
+      <workItem from="1583568539930" duration="43812000" />
+      <workItem from="1584272347644" duration="9685000" />
+      <workItem from="1584368980760" duration="12860000" />
+      <workItem from="1584433385690" duration="13914000" />
+      <workItem from="1584516091625" duration="12729000" />
+      <workItem from="1584617756398" duration="6353000" />
+      <workItem from="1584699785601" duration="7493000" />
+      <workItem from="1584967172989" duration="602000" />
+      <workItem from="1585145640101" duration="4728000" />
+      <workItem from="1585213403997" duration="605000" />
+      <workItem from="1585550948406" duration="14477000" />
+      <workItem from="1585639579307" duration="2708000" />
+      <workItem from="1585645347291" duration="8938000" />
+      <workItem from="1585745485869" duration="873000" />
+      <workItem from="1585816567362" duration="7251000" />
+      <workItem from="1585825484702" duration="1580000" />
+      <workItem from="1585827124193" duration="1035000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/leggTilLokal.php</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
