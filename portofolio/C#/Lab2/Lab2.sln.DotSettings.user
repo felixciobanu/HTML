@@ -1,0 +1,31 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0003286a_002D541a_002D476d_002Da6fa_002D56e61ae10906/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="WebApplicationTests #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7BCF4E5-8B4D-47A6-9FC7-62E841D680F4::net7.0::UiS.Dat240.Lab2.Tests.WebApplicationTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7f17bad4_002D2ba6_002D4c75_002Dbef4_002Db2b67ab95f5c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="WebApplicationTests #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7BCF4E5-8B4D-47A6-9FC7-62E841D680F4::net7.0::UiS.Dat240.Lab2.Tests.WebApplicationTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c15dea92_002Dc904_002D48d9_002Dafe7_002D00caefe39ce7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="WebApplicationTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7BCF4E5-8B4D-47A6-9FC7-62E841D680F4::net7.0::UiS.Dat240.Lab2.Tests.WebApplicationTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c7c57753_002Dcbd1_002D42ae_002Db76a_002D46df30f46f06/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="WebApplicationTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7BCF4E5-8B4D-47A6-9FC7-62E841D680F4::net7.0::UiS.Dat240.Lab2.Tests.WebApplicationTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ca404d62_002Db066_002D47b4_002Dac4d_002D69c051697cd9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="WebApplicationTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7BCF4E5-8B4D-47A6-9FC7-62E841D680F4::net7.0::UiS.Dat240.Lab2.Tests.WebApplicationTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f8d8fa99_002D4c62_002D40ac_002D9825_002Df639f793ec3b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="IFoodItemValidatorTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7BCF4E5-8B4D-47A6-9FC7-62E841D680F4::net7.0::UiS.Dat240.Lab2.Tests.WebApplicationTests.IFoodItemValidatorTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

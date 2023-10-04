@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1cc2aa1c_002De0ea_002D4d0d_002Dad37_002D5c395beef5a0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SimpleStringEnqueue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4E5AA43D-CC9A-407D-B3AA-17B379353496::net7.0::UiS.Dat240.Lab1.Tests.SimpleQueueTests.SimpleStringEnqueue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4E5AA43D-CC9A-407D-B3AA-17B379353496::net7.0::UiS.Dat240.Lab1.Tests.SimpleQueueTests.SimpleObjectEnqueue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4E5AA43D-CC9A-407D-B3AA-17B379353496::net7.0::UiS.Dat240.Lab1.Tests.SimpleQueueTests.SimpleGenericEnqueue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4E5AA43D-CC9A-407D-B3AA-17B379353496::net7.0::UiS.Dat240.Lab1.Tests.ServiceProviderTests.SimpleServiceProviderTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dKvI6Vjk6NvWoDuK1e4PMbOJwy3FepVNf3GiXdwQxwE48SSNrsVfPNRhBHan3bkLWvgXjNkRPjqMA9tCkQQTgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\felix\\OneDrive - Universitetet i Stavanger\\Desktop\\Sem5\\DAT240\\labs\\felixciobanu-labs\\Lab1\\UiS.Dat240.Lab1\\UiS.Dat240.Lab1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felix\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\felix\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

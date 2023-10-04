@@ -1,0 +1,37 @@
+﻿@page
+@model UiS.Dat240.Lab2.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>CookTime</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.FoodItem)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CookTime)
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
