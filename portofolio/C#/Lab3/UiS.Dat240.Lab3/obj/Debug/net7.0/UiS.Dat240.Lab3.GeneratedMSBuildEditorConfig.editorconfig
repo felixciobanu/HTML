@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UiS.Dat240.Lab3
+build_property.RootNamespace = UiS.Dat240.Lab3
+build_property.ProjectDir = C:\Users\felix\OneDrive - Universitetet i Stavanger\Desktop\Sem5\DAT240\labs\felixciobanu-labs\Lab3\UiS.Dat240.Lab3\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\felix\OneDrive - Universitetet i Stavanger\Desktop\Sem5\DAT240\labs\felixciobanu-labs\Lab3\UiS.Dat240.Lab3
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Orders/Invoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzXEludm9pY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Orders/Offer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzXE9mZmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Shared/_ShoppingCartPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TaG9wcGluZ0NhcnRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felix/OneDrive - Universitetet i Stavanger/Desktop/Sem5/DAT240/labs/felixciobanu-labs/Lab3/UiS.Dat240.Lab3/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,42 @@
+@page
+@model Lab3.Pages.Orders.DetailsModel
+
+<div class="text-center">
+	<h1 class="display-4">Order Details</h1>
+    <div>Order Id: </div>
+    <div>@Model.Order.Id</div>
+	<div class="text-left">
+			<table class="table  table-striped table-hover">
+				<thead>
+					<tr>
+						<th scope="col">Item Id</th>
+						<th scope="col" >Item Name</th>
+						<th scope="col" >Price</th>
+						<th scope="col" >Amount</th>
+					</tr>
+				</thead>
+				<tbody>
+
+					@foreach (var item in Model.Order.OrderLines)
+					{
+						<tr>
+							<th scope="row">@item.ItemId</th>
+							<td>@item.Item</td>
+							<td class="">@item.Price</td>
+							<td class=" text-nowrap">@item.Amount</td>
+						</tr>
+					}
+				</tbody>
+				@if (Model.Order.Status == Status.Placed)
+				{
+						<form method="post" class="mt-5">
+							<div class="mb-3">
+								Shipper Name:
+								<input asp-for="shipper" class="form-control" />
+							</div>
+						<button type="submit" class="btn btn-primary" asp-route-id="@Model.Order.Id">Confirm</button>
+					</form>
+				}
+			</table>
+	</div>
+</div>
